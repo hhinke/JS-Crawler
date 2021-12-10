@@ -1,0 +1,22 @@
+{
+  "name": "js-web-crawler",
+  "version": "1.0.0",
+  "description": "Web Crawler for Include code challenge",
+  "main": "crawler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon crawler.js -n 1 https://www.youtube.com/"
+  },
+  "author": "Henrique S. Hinke",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10"
+  },
+  "bin": {
+    "execute": "crawler.js"
+  }
+}
